@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Poppins:wght@400;500;700&display=swap');
+.title-food{
+
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-size:25px;
+    font-weight: 600;
+    border: 1vh;
+    font-style: oblique;
+}
+.body-food{
+
+    font-style: oblique;
+}
+.mar{
+    background-color: #212121;
+   
+}
+.bo{
+    border: none;
+}
+.text{
+    color: azure;
+    animation:text 5s linear infinite alternate backwards running;
+    
+}
+@keyframes text{
+0%{
+    color: chartreuse;
+}
+25%{
+    color:darkturquoise;
+}
+50%{
+    color:tomato;
+}
+75%{
+    color:orange;
+}
+100%{
+    color: pink;
+}
+}
+
+.card-title{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Places{
+    color: whitesmoke;
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    animation: places 4s linear infinite alternate backwards running;
+}
+@keyframes places{
+    50%{
+        color: red;
+    }
+    100%{
+        color:darkgray;
+    }
+}
+.places-pass{
+    color: azure;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Explore{
+    color: whitesmoke;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.accordion{
+    margin-bottom: 5%;
+}
